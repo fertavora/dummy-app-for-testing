@@ -19,6 +19,7 @@
   "homepage": "https://github.com/fertavora/dummy-app-for-testing#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "date-format": "0.0.2",
     "express": "^4.14.0"
   }
 }
