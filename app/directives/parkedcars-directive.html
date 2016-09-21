@@ -3,6 +3,6 @@
         <h3 class="panel-title">Parked cars</h3>
     </div>
     <table class="table table-hover">
-        <tr ng-repeat="c in cars"><td>{{c.marca}}</td><td>{{c.patente}}</td><td>{{c.ingreso | date:"dd/MM/yyyy '-' HH:mm"}}</td></tr>
+        <tr ng-repeat="a in autos | orderBy: 'ingreso'"><td>{{a.marca}}</td><td>{{a.tarifa.tipo}}</td><td>{{a.patente}}</td><td>{{a.ingreso | date:"dd/MM '-' HH:mm"}}</td><td><button class="btn btn-primary btn-xs"><i class="fa fa-sign-out" aria-hidden="true"></i></button></td></tr>
     </table>
 </div>
