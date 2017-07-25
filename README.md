@@ -1,4 +1,4 @@
-#Dummy App For Testing
+# Dummy App For Testing
 
 This is app is meant to be a tool to use in jobs interviews, so a tester candidate can show his/her skills.
 Thus it contains _intentional bugs_ that a tester should find.
