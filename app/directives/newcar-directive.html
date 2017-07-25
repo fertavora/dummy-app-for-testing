@@ -5,15 +5,15 @@
     <div class="panel-body">
         <form name="newCarForm" ng-submit="agregarAuto(nuevoAuto)">
             <div class="form-group">
-                <label for="patente">Patenete</label>
+                <label for="patente">Car Pllate</label>
                 <input type="text" class="form-control" id="patente" ng-model="nuevoAuto.patente">
             </div>
             <div class="form-group">
-                <label for="marca">Marca</label>
+                <label for="marca">Brand</label>
                 <input type="text" class="form-control" id="marca" ng-model="nuevoAuto.marca">
             </div>
             <div class="form-group">
-                <label for="tarifa">Tarifa</label>
+                <label for="tarifa">Type</label>
                 <select class="form-control" ng-model="nuevoAuto.tarifa" id="tarifa" ng-options="t.tipo for t in tarifas"></select>
             </div>
             <div class="form-group">

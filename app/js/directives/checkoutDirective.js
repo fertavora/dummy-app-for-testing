@@ -5,7 +5,6 @@
 
 app.directive('checkoutDirective', function(){
     function modals(){
-        // console.log('parked cars');
         //todo terminar el modal para el checkout del auto
     }
 

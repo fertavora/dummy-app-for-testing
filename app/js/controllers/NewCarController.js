@@ -2,7 +2,7 @@
  * Created by tavete on 20/09/16.
  */
 'use strict';
-app.controller('NewCarController', function NewCarController($scope){
+app.controller('NewCarController', function NewCarController($scope, $http){
     $scope.nuevoAuto = {};
     $scope.master = {};
     $scope.nuevoAuto.tarifa = $scope.tarifas[0];
@@ -13,5 +13,6 @@ app.controller('NewCarController', function NewCarController($scope){
         $scope.autos.push(auto);
         $scope.nuevoAuto = angular.copy($scope.master);
         $scope.nuevoAuto.tarifa = $scope.tarifas[0];
+        $http.get('./newcar');
     }
 })
