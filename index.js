@@ -15,4 +15,4 @@ app.get('/newcar', function(req, res){
   res.status(400).send({error: "Bad request"});
 });
 
-app.listen(process.env.EXPRESS_PORT || 80);
+app.listen(process.env.PORT || 3000);
